@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    margin-bottom: 15px;
+    width: 90%;
+}
+.container{
+    margin-inline: auto;
+    margin-block: 2rem;
+    min-height: 500px;
+    padding: 2rem;
+    width: clamp(300px, 25vw, 700px);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th,td {
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+caption{
+    font-size: 2rem;
+    font-weight: bold;
+    caption-side: top;
+    text-align: left;
+    padding-bottom: 10px;
+}
+th{
+    font-size: 1.25rem;
+}
+input {
+    margin-left: auto;
+}
+
+form > div{
+    display: flex;
+
+}
